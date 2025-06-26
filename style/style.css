@@ -51,3 +51,56 @@ a:hover{
     transform: scale(1.1);
     transition: 0.6s;
 }
+
+.texto-inicial{
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+
+    h1{
+        color: var(--cor2);
+        width: 800px;
+        padding: 10px;
+        margin: auto;
+        font-size: 50px;
+    }
+
+    p{
+        color: var(--cor3);
+        margin: auto;
+        font-size: 20px;
+    }
+}
+
+.hero{
+    margin: auto;
+    text-align: center;
+
+    h2{
+        color: var(--cor2);
+        font-size: 30px;
+    }
+
+    p{
+        margin: auto;
+        text-align: center;
+        color: var(--cor3);
+        padding: 10px 10px;
+        width: 700px;
+        font-size: 19px;
+    }
+}
+
+.planos{
+    padding: 40px 10px 40px 10px;
+
+    h2{
+        margin: auto;
+        text-align: center;
+        color: var(--cor2);
+        font-size: 30px;
+    }
+}
+
+.plano{
+    margin: 10px 30px;
+}
