@@ -90,7 +90,7 @@ a:hover{
     }
 }
 
-.planos{
+.planos1{
     padding: 40px 10px 40px 10px;
     display: block;
 
@@ -99,6 +99,16 @@ a:hover{
         text-align: center;
         color: var(--cor2);
         font-size: 30px;
+    }
+}
+
+.planos{
+    margin-top: 40px;
+    display: flex;
+    padding: 0 10px;
+
+    .plano1 .plano2 .plano3 .plano4{
+        padding-bottom: 20px;
     }
 }
 
@@ -111,6 +121,7 @@ a:hover{
     text-align: left;
     margin: auto;
     padding: 30px 25px;
+    height: 200px;
 
     h3{
         margin: auto;
@@ -144,6 +155,7 @@ a:hover{
     text-align: left;
     margin: auto;
     padding: 30px 25px;
+    height: 200px;
 
     h3{
         margin: auto;
@@ -172,6 +184,8 @@ a:hover{
     text-align: left;
     margin: auto;
     padding: 30px 25px;
+    height: 200px;
+
 
     h3{
         margin: auto;
@@ -192,11 +206,12 @@ a:hover{
 }
 
 .plano4{
-    margin: 10px 30px;
+    margin: 30px 30px;
     border: 1px solid var(--cor2);
     border-radius: 20px;
     background-color: var(--cor3);
     width: 300px;
+    height: 200px;
     text-align: left;
     margin: auto;
     padding: 30px 25px;
@@ -265,4 +280,108 @@ a:hover{
         padding: 10px;
         border-radius: 30px;
     }
+}
+
+@media screen and  (max-width: 1100px) {
+    
+    header{
+        width: 94%;
+    }
+
+    .texto-inicial{
+        
+
+        h1{
+            font-size: 30px;
+            width: 350px;
+            text-align: center;
+        }
+    }
+
+    .hero{
+
+        p{
+            width: 350px;
+        }
+    }
+
+    
+    
+    .planos{
+        display: block;
+        padding: 20px 0;
+
+    .plano1{
+    width: 250px;
+    margin-bottom: 20px;
+
+    h3{
+        padding-bottom: 9px;
+    }
+    }
+
+    .plano2{
+    width: 250px;
+    margin-bottom: 20px;
+
+    h3{
+    padding-bottom: 9px;
+    }
+    }
+
+    .plano3{
+    width: 250px;
+    margin-bottom: 20px;
+
+    h3{
+padding-bottom: 9px;
+}
+    }
+
+    .plano4{
+    width: 250px;
+
+    h3{
+padding-bottom: 9px;
+}
+    }
+    }
+}
+
+.beneficios{
+
+
+    h2{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul li{
+        width: 300px;
+        text-decoration: none;
+    }
+}
+
+.cta{
+
+    margin-bottom: 60px;
+    h2{
+        width: 330px;
+        text-align: center;
+        margin: auto;
+    }
+
+    p{
+        padding: 20px 0 50px 0;
+        width: 360px;
+        text-align: center;
+        margin: auto;
+    }
+
+    a{
+        margin: 0 0 50px 0;
+        padding: 20px;
+    }
+
 }
