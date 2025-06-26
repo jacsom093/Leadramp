@@ -92,6 +92,7 @@ a:hover{
 
 .planos{
     padding: 40px 10px 40px 10px;
+    display: block;
 
     h2{
         margin: auto;
@@ -109,7 +110,7 @@ a:hover{
     width: 300px;
     text-align: left;
     margin: auto;
-    padding: 20px 25px;
+    padding: 30px 25px;
 
     h3{
         margin: auto;
@@ -135,14 +136,14 @@ a:hover{
 }
 
 .plano2{
-    margin: 10px 30px;
+    margin: 108x 30px;
     border: 1px solid var(--cor2);
     border-radius: 20px;
     background-color: var(--cor3);
     width: 300px;
     text-align: left;
     margin: auto;
-    padding: 20px 25px;
+    padding: 30px 25px;
 
     h3{
         margin: auto;
@@ -170,7 +171,7 @@ a:hover{
     width: 300px;
     text-align: left;
     margin: auto;
-    padding: 20px 25px;
+    padding: 30px 25px;
 
     h3{
         margin: auto;
@@ -198,7 +199,7 @@ a:hover{
     width: 300px;
     text-align: left;
     margin: auto;
-    padding: 20px 25px;
+    padding: 30px 25px;
 
     h3{
         margin: auto;
@@ -215,5 +216,53 @@ a:hover{
         padding: 5px 0 5px 0;
         font-size: 18px;
         color: var(--corerro);
+    }
+}
+
+.beneficios{
+    display: contents;
+    margin: auto;
+
+    h2{
+        color: var(--cor2);
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    ul li{
+        margin: auto;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 18px;
+        color: var(--cor3);
+    }
+}
+
+.cta{
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    h2{
+        color: var(--cor2);
+        font-size: 30px;
+    }
+
+    p{
+        color: var(--cor3);
+        font-size: 18px;
+        padding: 10px 0 20px 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--cor3);
+        font-weight: 700;
+        background-color: var(--cordestaque);
+        padding: 10px;
+        border-radius: 30px;
     }
 }
